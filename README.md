@@ -12,11 +12,13 @@ I wrote this bit to make things a little simpler for implementing many different
 
 2. You'll need to create a constructor for this class that takes a string as an argument, and assigns it to the _APIuri class member variable.  Here is an example of what it looks like:
    
-       `public ExampleAPIData(string uri)`
-       `{            `
-       `    _APIuri = uri;`
-       `    _APIResult = null;`
-       `}`
+       ```
+	   public ExampleAPIData(string uri)
+       {            
+           _APIuri = uri;
+           _APIResult = null;
+       }
+	   ```
 3. Next, you'll want to override JObject makeRESTrequest from APIData to contain the code that actually sends the request and receives the response.  I suggest returning the JObject even if you only want a small part as it'll make things consistent across multiple URIs.
 4. Then, in another class that inherits from the RESTfulClientBase, define a newChildObject delegate to use the new inherited APIData's constructor that passes the string in as an argument.
 5. You'll also want to override initializeAPIdict to add to the dictionary of APIData.  The Keys of this dictionary are how the APIs are accessed.  You'll never need to mess with the URI again once they are added in here.  Place them in such a way that they can be modified with String.Format.  You'll need to pass your newChildObject delegate in as an argument.  Dictionary is allowed to be speficied in case you wished to have multiple APIData dictionaries for some reason, otherwise, this should probably just use the inherited apiInformation dictionary passed in from the Constructor.
