@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickRESTdata", "QuickRESTdata\QuickRESTdata.csproj", "{18E4AC8F-DA77-4A28-8A86-4836A84B395D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickRESTbase", "QuickRESTbase\QuickRESTbase.csproj", "{7069BAE2-F730-4047-9D89-01035B21F970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickRESTexamplelib", "QuickRESTexamplelib\QuickRESTexamplelib.csproj", "{53ACF9D3-770F-4044-9EFD-C503C742105A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickRESTexample", "QuickRESTexample\QuickRESTexample.csproj", "{2AB467B8-C0A7-4B3F-8087-729C246EEF65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E4AC8F-DA77-4A28-8A86-4836A84B395D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E4AC8F-DA77-4A28-8A86-4836A84B395D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E4AC8F-DA77-4A28-8A86-4836A84B395D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E4AC8F-DA77-4A28-8A86-4836A84B395D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7069BAE2-F730-4047-9D89-01035B21F970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7069BAE2-F730-4047-9D89-01035B21F970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7069BAE2-F730-4047-9D89-01035B21F970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7069BAE2-F730-4047-9D89-01035B21F970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53ACF9D3-770F-4044-9EFD-C503C742105A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53ACF9D3-770F-4044-9EFD-C503C742105A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53ACF9D3-770F-4044-9EFD-C503C742105A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53ACF9D3-770F-4044-9EFD-C503C742105A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB467B8-C0A7-4B3F-8087-729C246EEF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB467B8-C0A7-4B3F-8087-729C246EEF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB467B8-C0A7-4B3F-8087-729C246EEF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB467B8-C0A7-4B3F-8087-729C246EEF65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
